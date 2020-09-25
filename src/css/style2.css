@@ -1,0 +1,54 @@
+#KYOTO h2, #tokyo h2, #osaka h2{
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 5px 5px 5px #0D918D;
+}
+#KYOTO b, #tokyo b, #osaka b{
+	color: #0D918D;
+}
+
+#KYOTO h3, #tokyo h3, #osaka h3{
+	color: #0D918D;
+}
+
+#KYOTO p, #tokyo p, #osaka p{
+	width: 900px;
+	text-align: justify;
+	margin: 15px;
+}
+
+#KYOTO .description, #tokyo .description, #osaka .description{
+	text-align: center;
+}
+
+#KYOTO section, #tokyo section, #osaka section, #osaka section{
+	width: 100%;
+}
+/* 
+figure img{
+	border: solid 4px #F5F5F5;
+	max-width: 200%;
+	height: auto;
+} */
+
+#KYOTO > section:nth-child(2) > article > img, #tokyo > section:nth-child(2) > article > img, #osaka > section:nth-child(2) > article > img{
+	width: 800px;
+	height: auto;
+}
+
+#KYOTO .flex, #tokyo .flex, #osaka .flex, #osaka .flex{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.incontournables img{
+	width: 300px;
+	height: auto;
+}
+
+.incontournables .culinaires{
+	width: 300px;
+	height: 300px;
+} 

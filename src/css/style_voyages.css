@@ -1,0 +1,295 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-color: #F0F0F0;
+	font-family: 'Comic sans MS', cursive;
+	font-size: 2rem;
+	width: 100%;
+	margin: 0;
+}
+ul, li{
+	margin: 0;
+	padding: 0;
+}
+ 
+.BangKok{
+	background-image: url(../img/Bang_Kok.jpg);
+}
+
+.KohSamui{
+	background-image: url(../img/Koh_Samui.jpg);
+}
+
+.HuaHin{
+	background-image: url(../img/Hua-Hin.jpg);
+}
+
+.KohPhiPhi{
+	background-image: url(../img/Koh_PhiPhi.jpg);
+}
+
+.Phuket{
+	background-image: url(../img/Phuket.jpg);
+}
+
+.KohLanta{
+	background-image: url(../img/Koh_lanta.jpg);
+}
+
+.japon{
+	background-image: url(../img/Japon_ville.jpg);
+}
+
+.div_article .tokyo{
+	background-image: url(../img/tokyoAccueil.jpg);
+}
+
+.div_article .Kyoto{
+	background-image: url(../img/kyotoAccueil.jpg);
+}
+
+.div_article .osaka{
+	background-image: url(../img/osakaAcceuil.jpg);
+}
+
+.div_article .kanagawa{
+	background-image: url(../img/kanagawaAccueil.jpeg);
+}
+
+body header .titre_du_site{
+	color: #0D918D;
+	text-align: center;
+	font-size: 6rem;
+	margin: 0;
+}
+
+.container_logo_nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+ 
+body header nav ul li a{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.ly_logo{
+	width: 200px;
+	height: auto;
+	margin-left: 40px;
+	border-radius: 50px;
+}
+
+.nav_bar{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end; 
+}
+
+nav ul .liens_menu{
+	display: inline-block;
+	margin: 1rem;
+}
+
+nav ul .liens_menu a, header h1 a, .zone_de_texte article a{
+	color: #0D918D;
+	text-decoration: none;
+}
+
+main{
+	/*background-image: url(../img/FD_multicolor.jpg);
+	background-size: cover;*/
+	background-color: white;
+	height: 100%;
+	padding: 0 1rem;
+	margin: auto;
+}
+
+header, footer{
+	background-color: #F0F0F0;
+}
+
+footer .footer{
+	text-align: center;
+	font-size: 1em;
+	margin: auto;
+	margin-top: 1rem;
+	padding: 1rem;
+}
+
+body main .div_article{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 1rem 0 1rem 0;
+	height: 300px;
+}
+
+.zone_de_texte{
+	-webkit-transition: all 0.5s ease;
+  	transition: all 0.5s ease;
+}
+
+.zone_de_texte:hover{
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+body main div section{
+	background-color: white;
+	background-size: cover;
+	width: 49%;
+	padding: 1rem;
+	margin: 0,5rem;
+	border-radius: 20px;
+	
+}
+
+
+.zone_de_texte{
+	background-color: #fff;
+	opacity: 0.80;
+	width: 50%;
+	padding: 1rem;
+	border-radius: 20px;
+}
+
+#bangKok , #kohPhiphi, #kohSamui, #kohLanta, #phuket{
+	background-color: white;
+	width: 100%;
+	padding: 1rem;
+}
+
+#bangKok h2, #kohPhiphi h2, #kohSamui h2, #kohLanta h2, #phuket h2{
+	text-align: center;
+	font-size: 5rem;
+}
+
+/*#bangKok article{
+	text-align: center;
+}*/
+
+#bangKok p, #kohPhiphi p{
+	margin: auto;
+}
+
+#kohSamui .texte_samui, #kohLanta .texte_kohLanta, #phuket .texte_phuket{
+	width: 70%;
+	padding-top: 2rem;
+}
+
+#kohSamui .texte_samui p, #kohLanta .texte_kohLanta p, #phuket .texte_phuket p{
+	height: auto;
+}
+
+#bangKok b, #kohPhiphi b,#kohSamui b, #kohLanta b, #phuket b{
+	color: #0D918D;
+}
+
+#bangKok article figure:hover, #kohPhiphi article figure:hover, #kohSamui div figure:hover, #kohLanta div figure:hover, #phuket div figure:hover{
+	color: #0D918D;
+}
+
+#bangKok img, #kohPhiphi img,#kohSamui img, #kohLanta img, #phuket img{
+	width: 400px;
+	height: 200px;
+}
+
+#bangKok .incontournable, #kohPhiphi .incontournable{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#bangKok .incontournable2, #kohPhiphi .incontournable2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#bangKok figcaption, #kohPhiphi figcaption{
+	width: 400px;
+}
+
+.description{
+	width: 70%;
+	margin: auto;
+}
+
+#kohPhiphi .description h3{
+	text-align-last: left;
+}
+.img_zoom_hover .img_zoom {
+    overflow: hidden;
+    position: relative; 
+}
+.img_zoom_hover .img_zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.img_zoom_hover .img_zoom * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.img_zoom_hover:hover .img_zoom img {
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}
+
+.img_zoom_hover{
+	width: 33%;
+}
+
+footer ul li{
+	list-style-type: none;
+	padding: 0.5rem;
+	color: #0D918D;
+}
+
+.df_bangkok,.df_kohphiphi{
+	width: 90%;
+	margin: auto;
+}
+
+#kohSamui .flex_samui, #kohLanta .flex_kohLanta, #phuket .flex_phuket{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+fieldset form button{
+	border: outset;
+	background-color: #0D918D;
+	padding: 1rem;
+	margin: 1rem;
+	border-radius: 15px;
+}
+
+fieldset form input{
+	margin: 1rem;
+}
+
+#equipe article,#livre_or article{
+	border: outset;
+	margin: 1rem;
+	padding: 2rem;
+	background-color: #E6EBEF;
+}
+
+#livre_or img{
+	width: 20%;
+	height: auto;
+}
+

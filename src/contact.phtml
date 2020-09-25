@@ -1,0 +1,21 @@
+<?php include 'tmpl_top.php'; ?>
+    <fieldset>
+    <legend>Contactez nous...</legend>
+        <form action="contact.phtml" method="POST">
+            <label for="Nom">Nom</label><br>
+            <input type="text" name="Nom" id="Nom" placeholder="Nom..."><br>
+            
+            <label for="Prenom">Prenom</label><br>
+            <input type="text" name="Prenom" id="Prenom" placeholder="Prenom..."><br>
+
+            <label for="content">Commmentaires</label><br>
+            <textarea id="content" name="content"
+            rows="5" cols="33" placeholder="Commentaires..."></textarea><br>
+
+            <label for="dateCommentaire">Date</label><br>
+            <input type="date" name="dateCommentaire" id="dateCommentaire"><br>
+
+            <button type="submit" value="Valider">Valider</button>
+        </form>
+    </fieldset>  
+<?php include 'tmpl_bottom.php'; ?>
